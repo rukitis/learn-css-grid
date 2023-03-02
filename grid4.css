@@ -1,0 +1,26 @@
+.item-11 {
+    background-color: purple
+}
+
+.item-22 {
+    background-color: purple
+}
+
+.item-33 {
+    background-color: purple
+}
+
+.item-44 {
+    background-color: purple
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 300px 300px;
+    grid-row-gap: 100px;
+    grid-column-gap: 100px;
+}
+body {
+    background-color: salmon;
+}
