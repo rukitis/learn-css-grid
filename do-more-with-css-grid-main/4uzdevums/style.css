@@ -5,13 +5,16 @@
   kādas vēlas būt katrs no tekstiem 1. rindā.
   Kopā ir 2 rindas un tās aizņem tieši tik daudz vietas,
   cik garākajam tekstam vajadzīgs.*/
-
+display:grid;
+grid-template-columns: max-content min-content  minmax(400px, 1fr);
+grid-template-rows: auto auto;
   gap: 10px;
 }
 
 .item {
   background-color: rgb(239, 80, 80);
   font-family: sans-serif;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 5px;
+  
 }
