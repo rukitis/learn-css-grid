@@ -1,0 +1,38 @@
+.parent {
+  width: 600px;
+  height: 500px;
+  background-color: lightblue;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+  /* Izveido, lūdzu, CSS Grid, kuram ir 3 vienāda platuma kolonnas
+  un 3 vienāda augstuma rindas. Atstarpe starp elementiem - 10 px. 
+  Izvieto 3 elementus, nemainot HTML, tā kā parādīts attēls.png*/
+}
+
+.child-1{
+  background-color: lightgreen;
+  font-family: sans-serif;
+  grid-column: 1/3;
+  grid-row: 1/3;
+
+}
+
+.child-2{
+  background-color: lightgreen;
+  font-family: sans-serif;
+  grid-column: 3/8;
+  grid-row: 1/6;
+
+}
+.child-3{
+  background-color: lightgreen;
+  font-family: sans-serif;
+  grid-column: 1/3;
+  grid-row: 3/6;
+ 
+}
+
+
